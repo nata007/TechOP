@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<state>
+		<name>Product page</name>
+		<params addpath="/components/com_hikashop/params">
+			<param name="product_id_1" type="selectproduct" default="0" label="Select a product" description="Select here the product to display for the current link" />
+			<param name="product_id_2" type="selectproduct" default="0" label="Select a product" description="Select here the product to display for the current link" />
+			<param name="product_id_3" type="selectproduct" default="0" label="Select a product" description="Select here the product to display for the current link" />
+			<param name="product_id_4" type="selectproduct" default="0" label="Select a product" description="Select here the product to display for the current link" />
+			<param name="product_id_5" type="selectproduct" default="0" label="Select a product" description="Select here the product to display for the current link" />
+			<param name="product_id_6" type="selectproduct" default="0" label="Select a product" description="Select here the product to display for the current link" />
+			<param name="product_id_7" type="selectproduct" default="0" label="Select a product" description="Select here the product to display for the current link" />
+		</params>
+	</state>
+	<layout title="COM_HIKASHOP_COMPARE_VIEW_DEFAULT_TITLE">
+		<message></message>
+	</layout>
+	<fields name="params" addfieldpath="/components/com_hikashop/fields">
+		<fieldset name="basic" label="Select a product">
+								<field
+												id="product_id_1"
+												name="product_id_1"
+												type="selectproduct"
+												label="Select a product"
+												description="Select here the product to display for the current link"
+								/>
+								<field
+												id="product_id_2"
+												name="product_id_2"
+												type="selectproduct"
+												label="Select a product"
+												description="Select here the product to display for the current link"
+								/>
+								<field
+												id="product_id_3"
+												name="product_id_3"
+												type="selectproduct"
+												label="Select a product"
+												description="Select here the product to display for the current link"
+								/>
+								<field
+												id="product_id_4"
+												name="product_id_4"
+												type="selectproduct"
+												label="Select a product"
+												description="Select here the product to display for the current link"
+								/>
+								<field
+												id="product_id_5"
+												name="product_id_5"
+												type="selectproduct"
+												label="Select a product"
+												description="Select here the product to display for the current link"
+								/>
+								<field
+												id="product_id_6"
+												name="product_id_6"
+												type="selectproduct"
+												label="Select a product"
+												description="Select here the product to display for the current link"
+								/>
+								<field
+												id="product_id_7"
+												name="product_id_7"
+												type="selectproduct"
+												label="Select a product"
+												description="Select here the product to display for the current link"
+								/>
+		</fieldset>
+	</fields>
+</metadata>
